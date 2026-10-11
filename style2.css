@@ -1,0 +1,172 @@
+/* General Reset */
+body, h1, h2, p, ul, li, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Background */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #001f3f;
+    color: white;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+.navbar ul li {
+    margin: 0 1rem;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.navbar ul li a:hover {
+    color: #bf0b02;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #001f3f;
+    color: white;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.hero .cta {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #bf0b02;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.hero .cta:hover {
+    background-color: #d73833;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.services h2 {
+    margin-bottom: 1.5rem;
+    color: #001f3f;
+}
+.service-item {
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 600px;
+}
+.service-item h3 {
+    color: #bf0b02;
+    margin-bottom: 0.5rem;
+}
+.service-item p {
+    color: #555;
+}
+
+/* Application Section */
+.application {
+    padding: 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+.application h2 {
+    color: #001f3f;
+    margin-bottom: 1rem;
+}
+.application form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.application label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+.application input, .application select, .application button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.application button {
+    background-color: #001f3f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.application button:hover {
+    background-color: #bf0b02;
+}
+
+/* Status Page */
+.status-page {
+    padding: 2rem;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.status-page h2 {
+    color: #001f3f;
+    margin-bottom: 1rem;
+}
+#submission-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 600px;
+}
+#submission-list li {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #001f3f;
+    color: white;
+}
